@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Large Datasets (UCI HAR & Kaggle CSVs - see README for acquisition)
+train.csv
+test.csv
+UCI HAR Dataset.zip
+UCI HAR Dataset/
+__MACOSX/
+
+# Model Checkpoints and Preprocessed Cache (Large Binary Artifacts)
+*.pt
+*.pth
+*.npy
+*.pkl
+processed/*.pt
+processed/*.npy
+processed/*.pkl
+
+# Temporary Outputs
+*.tmp
+*.log
+submission_improved.csv
