@@ -12,6 +12,7 @@ An end-to-end, scientifically defensible machine learning study and champion sol
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Team Members](#team-members)
 - [Dataset Architecture](#dataset-architecture)
 - [Activity Classes](#activity-classes)
 - [Project Workflow & Research Progression](#project-workflow--research-progression)
@@ -38,6 +39,18 @@ An end-to-end, scientifically defensible machine learning study and champion sol
 Human Activity Recognition (HAR) aims to identify human physical movements and postures from inertial sensors embedded in commodity smartphones. The goal is to classify 2.56-second multi-axial sensor windows into one of six distinct physical activities. 
 
 While classical machine learning models trained on population-aggregated statistics often appear competitive on standard random splits, they severely degrade when deployed to unseen individuals due to **subject-to-subject biomechanical variance** (differences in height, weight, gait cadence, and phone orientation). This project establishes a rigorous, subject-disjoint validation protocol, diagnoses the fundamental failure modes of cross-subject generalization, and presents a multi-architecture ensemble incorporating **Adaptive Batch Normalization (AdaBN)** and **Temporal Sequence Smoothing** that achieved a validation Macro F1 score of **0.9865**.
+
+---
+
+## Team Members
+
+This project was conducted as a collaborative group study by:
+
+* Yasas Dewshan
+* Teshini Matharaarachchi
+* Sayuru Kalpana
+* Tharusha Nethmina
+* Pasindu Disanayaka
 
 ---
 
